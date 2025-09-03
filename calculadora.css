@@ -8,21 +8,20 @@ body {
 }
 
 .resposta {
-    display: block;   
+    display: flex;
+    order: 0;   
     margin-bottom: -40;
     width: 360px;      
-    height: 160px;       
-    background: #50ae25;
-    border-radius: 30px;
-    margin-bottom: -30px;
+    height: 130px;       
+    background: #50ae50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -40px;
     border: 15px solid #222;
     
-    
-    display: flex;
-    
-  
-  
-}
+   
+} 
+ 
 
 .tela {
     display: grid;
@@ -30,7 +29,7 @@ body {
     gap: 10px;
     padding: 20px;
     background: #222;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .tela button {
