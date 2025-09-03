@@ -18,7 +18,7 @@ body {
     border-top-right-radius: 30px;
     margin-bottom: -40px;
     border: 15px solid #222;
-    
+    box-shadow:5px -4px 50px #222;
    
 } 
  
@@ -30,6 +30,7 @@ body {
     padding: 20px;
     background: #222;
     border-radius: 15px;
+    box-shadow:5px -4px 50px #222;
 }
 
 .tela button {
